@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar 30 18:30:36 2021
 @author: sebas
 """
 
