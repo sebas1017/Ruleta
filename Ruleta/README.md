@@ -10,5 +10,5 @@ una vez con todas las dependencias correctas del proyecto podra ver una interfaz
  
  Donde podra verificar las reglas del juego en el home
  
- el servicio online para la base de datos fue elephant SQL y se desplego en un servidor AWS con un servidor WSGI apache2 puede ver el proyecto corriendo de forma online 
+ el servicio online para la base de datos se uso HEROKU y en el algoritmo se limpian conexiones activas para evitar problemas de concurrencia ya que esta app heroku tiene un limite maximo de 20 conexiones  y se desplego en un servidor AWS con un servidor WSGI apache2 puede ver el proyecto corriendo de forma online 
  en el siguiente url http://ec2-54-90-42-239.compute-1.amazonaws.com/
