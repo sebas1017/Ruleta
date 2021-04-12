@@ -1,0 +1,20 @@
+<html>
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <h1>Juego de la ruleta</h1>
+
+  <img src="{{url_for('static', filename='RULETA.png')}}"  width="300" height="200" />
+
+
+
+
+{% for your_list_element in resultados_ronda %}
+      <p>{{ your_list_element }} </p>
+  {% endfor %}
+
+
+  </body>
+<li><a href="/"class="btn btn-success">Inicio</a></li>
+</html>
