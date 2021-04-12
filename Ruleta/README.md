@@ -5,7 +5,7 @@ para la ejecucion de este proyecto se debe desplazar al directorio de descarga d
 pip3 install -r requirements.txt
 
 una vez con todas las dependencias correctas del proyecto podra ver una interfaz como la siguiente:
- ![alt text](https://github.com/sebas1017/Ruleta/tree/main/Ruleta/home.PNG?raw=true)
+ ![alt text](https://github.com/sebas1017/Ruleta/blob/main/Ruleta/home.PNG?raw=true)
  
  
  Donde podra verificar las reglas del juego en el home
