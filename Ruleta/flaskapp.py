@@ -11,11 +11,17 @@ app = Flask(__name__)
 app.secret_key = "cairocoders-ednalan-06300131"
 #aqui configuramos la conexion a nuestra base de datos
 #app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:admin**A@localhost:5432/Crud"      
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://weplvpuc:q0jaYnI2TKoPernjo-8B_cGTtZEOAi1y@queenie.db.elephantsql.com:5432/weplvpuc"    
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://waufeklidhhzoy:6ff59a4260175037ec69d78df310439b86d2ee5392b982e89297fac9793cca57@ec2-34-233-0-64.compute-1.amazonaws.com:5432/dbmtq7ks27bpjv"       
+  
                               
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
   
 db = SQLAlchemy(app)
+sql = '''select pid from pg_stat_activity where usename = 'waufeklidhhzoy' '''
+result = db.engine.execute(sql)
+for row in result:
+    valor = row['pid']
+    db.engine.execute( f'select pg_terminate_backend({valor})' )
   
 #creamos nuestro modelo de usuarios para hacer las operaciones CRUD 
 class users(db.Model):
