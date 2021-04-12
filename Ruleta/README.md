@@ -11,4 +11,4 @@ una vez con todas las dependencias correctas del proyecto podra ver una interfaz
  Donde podra verificar las reglas del juego en el home
  
  el servicio online para la base de datos fue elephant SQL y se desplego en un servidor AWS con un servidor WSGI apache2 puede ver el proyecto corriendo de forma online 
- en el siguiente url http://ec2-52-3-244-189.compute-1.amazonaws.com/
+ en el siguiente url http://ec2-54-90-42-239.compute-1.amazonaws.com/
