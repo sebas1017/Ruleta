@@ -1,4 +1,4 @@
-Ruleta
+## Ruleta
 esta simulacion de ruleta permite simular 1 de los tipos de juegos que existen en la ruleta y es cuando se apuesta a ROJO O NEGRO  impar o par
 para la ejecucion de este proyecto se debe desplazar al directorio de descarga de este proyecto en su equipo y crear un entorno virtual para esto debe ejecutar
 
