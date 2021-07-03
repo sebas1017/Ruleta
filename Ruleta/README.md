@@ -21,6 +21,8 @@ una vez con todas las dependencias correctas del proyecto podra ver una interfaz
 
 en caso de que lo este corriendo de forma local podra verlo en la direccion:
 
+http://127.0.0.1:5000/
+
  
  Donde podra verificar las reglas del juego en el home
  
